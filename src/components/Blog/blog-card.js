@@ -4,7 +4,7 @@ import "../Blog/blog-card.css"
 import { useModal } from "react-modal-hook"
 import ReactModal from "react-modal"
 import { connect } from "react-redux"
-import { RemoveScrollBar } from "react-remove-scroll-bar"
+
 
 const CardBlog = ({
   src,
@@ -119,6 +119,7 @@ const CardBlog = ({
                     href={"/"}
                     className="popup-img-single"
                     title="image title"
+                    aria-label="search"
                   >
                     <i className="fa fa-search-plus" />
                   </a>

@@ -46,17 +46,17 @@ const Footer = ({ footer, menu, language }) => {
                     </p>
                     <ul className="social-links circle">
                       <li className="facebook">
-                        <a href="https://www.facebook.com/htactive">
+                        <a href="https://www.facebook.com/htactive" aria-label="social-item">
                           <i className="fa fa-facebook"></i>
                         </a>
                       </li>
                       <li className="twitter">
-                        <a href="https://twitter.com/hoangvhh">
+                        <a href="https://twitter.com/hoangvhh" aria-label="social-item">
                           <i className="fa fa-twitter"></i>
                         </a>
                       </li>
                       <li className="googleplus">
-                        <a href="https://plus.google.com/u/0/117715430853979848085">
+                        <a href="https://plus.google.com/u/0/117715430853979848085" aria-label="social-item">
                           <i className="fa fa-google-plus"></i>
                         </a>
                       </li>
@@ -66,7 +66,7 @@ const Footer = ({ footer, menu, language }) => {
                         </a>
                       </li>
                       <li className="linkedin">
-                        <a href="https://www.linkedin.com/in/hoang-pham-6236b8b7">
+                        <a href="https://www.linkedin.com/in/hoang-pham-6236b8b7" aria-label="social-item">
                           <i className="fa fa-linkedin"></i>
                         </a>
                       </li>
@@ -93,7 +93,7 @@ const Footer = ({ footer, menu, language }) => {
                       </li>
                       <li>
                         <i className="fa fa-envelope-o pr-10"></i>
-                        <a className="link" href="mailto:recruit@htactive.com">
+                        <a className="link" href="mailto:recruit@htactive.com" aria-label="social-item">
                           recruit@htactive.com
                         </a>
                       </li>

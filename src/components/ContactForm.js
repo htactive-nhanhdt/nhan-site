@@ -114,7 +114,7 @@ const ContactForm = ({ language }) => {
                   </li>
                   <li>
                     <i className="fa fa-envelope pr-10" />
-                    <a href="mailto:services@htactive.com">
+                    <a href="mailto:services@htactive.com" aria-label="mail">
                       {contact[`email_${language}`]}
                     </a>
                   </li>

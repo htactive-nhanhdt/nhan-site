@@ -14,7 +14,7 @@ const NavBar = ({ color, active, menu,language, changeSlug, changeActive,isFoote
         <li
          key={index}
          onClick={()=>changeActive(`${index+1}`)}
-         className={`${color} ${active === `${index + 1}` ? "active" : ""} `}          
+         className={`${color} ${active === `${index + 1}` ? "active" : "item"} `}          
         >
           <Link to={engRoute[index]} onClick={()=> changeSlug("/")}>
             {isFooter ? item.charAt(0) + item.slice(1).toLowerCase() : item}

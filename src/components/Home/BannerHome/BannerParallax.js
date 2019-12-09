@@ -31,7 +31,7 @@ const BannerParallax = ({ data,language }) => {
               </div>
               <div className="col-lg-4 col-s,-12">
                 <div className="text-center">
-                  <a href="/contact" className="btn btn-default btn-lg">
+                  <a href="/contact" className="btn btn-default btn-lg" aria-label="btn">
                   {language === "en" ? "CONTACT" : "LIÊN HỆ"}
                   </a>
                 </div>
