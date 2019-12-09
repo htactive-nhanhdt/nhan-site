@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 
-const ParagraphLeft = ({ color, data, language }) => {
+const ParagraphLeft = ({data, language }) => {
   return (
     <div className="col-lg-6 col-md-12">
       <h2 className="title">{data[`about_paragraph_title_${language}`]}</h2>
@@ -14,7 +14,7 @@ const ParagraphLeft = ({ color, data, language }) => {
         </div>
       </div>
       <p>{data[`about_paragraph_${language}_1`]}</p>
-      <Link to="/about" className="btn btn-white">
+      <Link to="/contact" className="btn btn-white">
         {language === "en" ? "READ MORE" : "TÌM HIỂU THÊM"}
       </Link>
       <div className="space hidden-md hidden-lg"></div>

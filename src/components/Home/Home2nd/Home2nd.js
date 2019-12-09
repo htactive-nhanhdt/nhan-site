@@ -4,6 +4,7 @@ import ParagraphLeft from "../Home2nd/ParagraphLeft/ParagraphLeft"
 import { Collapse } from "antd"
 import QueueAnim from "rc-queue-anim"
 import TextCenter from "../TextCenter/TextCenter"
+
 const { Panel } = Collapse
 export default ({ color, data,language }) => {
   const dataUse = data.frontmatter[`home_2nd_${language}`] || {}

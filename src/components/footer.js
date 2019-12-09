@@ -46,17 +46,17 @@ const Footer = ({ footer, menu, language }) => {
                     </p>
                     <ul className="social-links circle">
                       <li className="facebook">
-                        <a href="https://www.facebook.com/htactive" aria-label="social-item">
+                        <a href="https://www.facebook.com/htactive">
                           <i className="fa fa-facebook"></i>
                         </a>
                       </li>
                       <li className="twitter">
-                        <a href="https://twitter.com/hoangvhh" aria-label="social-item">
+                        <a href="https://twitter.com/hoangvhh">
                           <i className="fa fa-twitter"></i>
                         </a>
                       </li>
                       <li className="googleplus">
-                        <a href="https://plus.google.com/u/0/117715430853979848085" aria-label="social-item">
+                        <a href="https://plus.google.com/u/0/117715430853979848085">
                           <i className="fa fa-google-plus"></i>
                         </a>
                       </li>
@@ -66,7 +66,7 @@ const Footer = ({ footer, menu, language }) => {
                         </a>
                       </li>
                       <li className="linkedin">
-                        <a href="https://www.linkedin.com/in/hoang-pham-6236b8b7" aria-label="social-item">
+                        <a href="https://www.linkedin.com/in/hoang-pham-6236b8b7">
                           <i className="fa fa-linkedin"></i>
                         </a>
                       </li>
@@ -93,14 +93,14 @@ const Footer = ({ footer, menu, language }) => {
                       </li>
                       <li>
                         <i className="fa fa-envelope-o pr-10"></i>
-                        <a className="link" href="mailto:recruit@htactive.com" aria-label="social-item">
+                        <a className="link" href="mailto:recruit@htactive.com">
                           recruit@htactive.com
                         </a>
                       </li>
                     </ul>
                   </div>
                 </div>
-                <Link to="/about" className="link-arrow link">
+                <Link to="/contact" className="link-arrow link">
                   <span>{language === "en" ? "About Us" : "Về chúng tôi"}</span>
                 </Link>
               </div>

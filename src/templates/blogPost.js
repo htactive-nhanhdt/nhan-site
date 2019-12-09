@@ -73,7 +73,6 @@ const BlogPost = ({ data, language, changeActive }) => {
                         <ul className="social-links clearfix">
                           <li className="facebook">
                             <a
-                            aria-label="social-item"
                               href={`https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftrusting-brown-c4f562.netlify.com${post.fields.slug}%2F`}
                             >
                               <i className="fa fa-facebook" />
@@ -81,7 +80,6 @@ const BlogPost = ({ data, language, changeActive }) => {
                           </li>
                           <li className="twitter">
                             <a
-                            aria-label="social-item"
                               href={`https://twitter.com/intent/tweet/?text=Check%20out%20this%20website!&url=https%3A%2F%2Ftrusting-brown-c4f562.netlify.com${post.fields.slug}%2F&via=HTActive"`}
                             >
                               <i className="fa fa-twitter" />
@@ -89,7 +87,6 @@ const BlogPost = ({ data, language, changeActive }) => {
                           </li>
                           <li className="googleplus">
                             <a
-                            aria-label="social-item"
                               href={`https://plus.google.com/share?url=https%3A%2F%2Ftrusting-brown-c4f562.netlify.com${post.fields.slug}%2F`}
                             >
                               <i className="fa fa-google-plus" />

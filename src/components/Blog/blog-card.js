@@ -119,7 +119,6 @@ const CardBlog = ({
                     href={"/"}
                     className="popup-img-single"
                     title="image title"
-                    aria-label="search"
                   >
                     <i className="fa fa-search-plus" />
                   </a>

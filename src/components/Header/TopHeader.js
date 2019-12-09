@@ -87,42 +87,42 @@ const HeaderTop = ({ language, changeLanguage, active, slug, changeSlug }) => {
                   {openToggle ? (
                     <ul className="dropdown-menu dropdown-animation">
                       <li className="twitter">
-                        <a href="https://twitter.com/hoangvhh" aria-label="twitter">
+                        <a href="https://twitter.com/hoangvhh">
                           <i className="fa fa-twitter"></i>
                         </a>
                       </li>
                       <li className="skype">
-                        <a href="skype:hoangvhh" aria-label="skype">
+                        <a href="skype:hoangvhh">
                           <i className="fa fa-skype"></i>
                         </a>
                       </li>
                       <li className="linkedin">
-                        <a href="https://www.linkedin.com/in/hoang-pham-6236b8b7" aria-label="linkedin">
+                        <a href="https://www.linkedin.com/in/hoang-pham-6236b8b7">
                           <i className="fa fa-linkedin"></i>
                         </a>
                       </li>
                       <li className="googleplus">
-                        <a href="https://plus.google.com/u/0/117715430853979848085" aria-label="googleplus">
+                        <a href="https://plus.google.com/u/0/117715430853979848085">
                           <i className="fa fa-google-plus"></i>
                         </a>
                       </li>
                       <li className="youtube">
-                        <a href="http://www.youtube.com" aria-label="youtube">
+                        <a href="http://www.youtube.com">
                           <i className="fa fa-youtube-play"></i>
                         </a>
                       </li>
                       <li className="flickr">
-                        <a href="https://www.flickr.com/photos/124606867@N06/" aria-label="flick">
+                        <a href="https://www.flickr.com/photos/124606867@N06/">
                           <i className="fa fa-flickr"></i>
                         </a>
                       </li>
                       <li className="facebook">
-                        <a href="https://www.facebook.com/htactive"  aria-label="facebook">
+                        <a href="https://www.facebook.com/htactive">
                           <i className="fa fa-facebook"></i>
                         </a>
                       </li>
                       <li className="pinterest">
-                        <a href="https://www.pinterest.com/vhhoang/" aria-label="pinterest">
+                        <a href="https://www.pinterest.com/vhhoang/">
                           <i className="fa fa-pinterest"></i>
                         </a>
                       </li>

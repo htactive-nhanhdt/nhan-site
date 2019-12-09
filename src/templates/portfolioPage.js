@@ -298,7 +298,6 @@ const PortfolioChildPage = ({ data, language, color }) => {
                       style={{ width: "230px" }}
                       href={item.store_link}
                       className="btn btn-default"
-                      aria-label="portfolio-item"
                     >
                       {tag === "web"
                         ? language === "en"

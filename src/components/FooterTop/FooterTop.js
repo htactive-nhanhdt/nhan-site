@@ -40,7 +40,7 @@ const FooterTop = ({language}) => {
   const carouselImg = [...carouselArr,...carouselArr].map((item, index) => (
     <div key = {index} className="owl-item" style={{ width: "139px" }}>
       <div className="client">
-        <a href="/" aria-label="carousel">
+        <a href="/">
           <img src={item} alt="" />
         </a>
       </div>
