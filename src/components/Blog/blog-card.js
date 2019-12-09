@@ -1,6 +1,5 @@
 import React, { useState } from "react"
 import { Link } from "gatsby"
-import "../Blog/blog-card.css"
 import { useModal } from "react-modal-hook"
 import ReactModal from "react-modal"
 import { connect } from "react-redux"

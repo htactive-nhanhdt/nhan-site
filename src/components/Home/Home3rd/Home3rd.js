@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import "../Home3rd/Home3rd.css"
+
 import TextCenter from "../TextCenter/TextCenter"
 const Home3rd = ({ data, language }) => {
   const [toggleStatus, setToggleStatus] = useState(1)

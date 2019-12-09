@@ -1,5 +1,4 @@
 import React, { useEffect } from "react"
-import "../FooterTop/FooterTop.css"
 import { useStaticQuery, graphql } from "gatsby"
 
 const FooterTop = ({language}) => {  

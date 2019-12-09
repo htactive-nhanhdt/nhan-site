@@ -1,5 +1,4 @@
 import React from "react"
-import "../Home2nd/Home2nd.css"
 import ParagraphLeft from "../Home2nd/ParagraphLeft/ParagraphLeft"
 import { Collapse } from "antd"
 import QueueAnim from "rc-queue-anim"
