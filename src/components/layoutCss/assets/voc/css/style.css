@@ -3165,7 +3165,7 @@ a.overlay.small i {
 /* first level menu */
 .navbar.navbar-default {
   border-radius: 0;
-  margin: 7px 0 7px;
+  margin: 11px 0 0 0;
   background-color: #fafafa;
   border-color: #f1f1f1;
   padding: 0!important;
