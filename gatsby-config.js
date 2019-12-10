@@ -10,12 +10,25 @@ module.exports = {
     `gatsby-plugin-htaccess`,
     `gatsby-plugin-netlify-cms`,
     {
-      resolve: 'gatsby-plugin-web-font-loader',
+      resolve: `gatsby-plugin-webfonts`,
       options: {
-        google: {
-          families: ['Open Sans']
-        }
-      }
+        fonts: {
+          google: [
+            {
+              family: "Open Sans",
+              variants: ["300", "400", "500"],
+              //subsets: ['latin']
+              //text: 'Hello'
+              //fontDisplay: 'swap',
+              //strategy: 'selfHosted' // 'base64' || 'cdn'
+            },
+          ],
+        },
+        //formats: ['woff2', 'woff'],
+        useMinify: true,
+        usePreload: true,
+        //usePreconnect: false,
+      },
     },
     {
       resolve: `gatsby-plugin-styled-components`,
