@@ -681,6 +681,10 @@ div.style-switcher hr {
 div.style-switcher hr + h3 {
   margin-top: 0;
 }
+.trigger .fa {
+  cursor: pointer;
+  font-size: 20px;
+}
 div.style-switcher span.trigger {
   display: block;
   height: 45px;
@@ -699,6 +703,7 @@ div.style-switcher span.trigger {
 }
 div.style-switcher.opened span.trigger {
   right: -1px;
+
 }
 div.style-switcher ul {
   list-style: none;
