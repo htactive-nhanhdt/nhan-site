@@ -10,11 +10,20 @@ module.exports = {
     `gatsby-plugin-htaccess`,
     `gatsby-plugin-netlify-cms`,
     {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: ['Open Sans']
+        }
+      }
+    },
+    {
       resolve: `gatsby-plugin-styled-components`,
       options: {
         // Add any options here
       },
     },
+    
     {
       resolve: 'gatsby-plugin-antd',
       options: {
