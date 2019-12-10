@@ -2744,7 +2744,7 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 16px;
-  color: inherit;
+  color: #fff!important;
 }
 .ant-collapse > .ant-collapse-item > .ant-collapse-header:after {
   font-family: "FontAwesome";
