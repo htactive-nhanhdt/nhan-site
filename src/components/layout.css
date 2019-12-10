@@ -77,25 +77,25 @@ body {
   transform: scale(0);
 }
 .logo {
-  background-image: url("../../static/img/logo_red.png");
+  background-image: url("../../static/img/logo_red.webp");
 }
 .blue .logo {
-  background-image: url("../../static/img/logo_blue.png");
+  background-image: url("../../static/img/logo_blue.webp");
 }
 .pink .logo {
-  background-image: url("../../static/img/logo_pink.png");
+  background-image: url("../../static/img/logo_pink.webp");
 }
 .green .logo {
-  background-image: url("../../static/img/logo_green.png");
+  background-image: url("../../static/img/logo_green.webp");
 }
 .orange .logo {
-  background-image: url("../../static/img/logo_orange.png");
+  background-image: url("../../static/img/logo_orange.webp");
 }
 .purple .logo {
-  background-image: url("../../static/img/logo_purple.png");
+  background-image: url("../../static/img/logo_purple.webp");
 }
 .yellow .logo {
-  background-image: url("../../static/img/logo_yellow.png");
+  background-image: url("../../static/img/logo_yellow.webp");
 }
 .fa-angle-up {
   font-size: 33px;
@@ -924,7 +924,7 @@ div.style-switcher .dark-red:hover {
   overflow: auto;
 }
 .logo {
-  background-image: url("../../static/img/logo_red.png");
+  background-image: url("../../static/img/logo_red.webp");
 }
 .first-title {
   font-weight: 700;

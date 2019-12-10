@@ -3,7 +3,7 @@ title: Sát Hạch Lái Xe
 date: 2019-11-27T03:54:08.858Z
 card-portfolio:
   cardId: 6
-  card-img: /img/sathach.jpg
+  card-img: /img/sathach.webp
   card-lead: >-
     Đầy đủ dữ liệu 450 câu hỏi cập nhập mới nhất của cục Khảo Thí, Tổng Cục
     Đường Bộ Việt Nam. Chế độ ôn thi cho phép xem 45...
@@ -84,19 +84,19 @@ card-portfolio:
           name: Cập nhập phiên bản 1.2.0.0
     slider-img:
       - id: 1
-        slider: /img/sathach-1.jpg
+        slider: /img/sathach-1.webp
       - id: 2
-        slider: /img/sathach-2.jpg
+        slider: /img/sathach-2.webp
       - id: 3
-        slider: /img/sathach-3.jpg
+        slider: /img/sathach-3.webp
       - id: 4
-        slider: /img/sathach-4.jpg
+        slider: /img/sathach-4.webp
       - id: 5
-        slider: /img/sathach-5.jpg
+        slider: /img/sathach-5.webp
       - id: 6
-        slider: /img/sathach-6.jpg
+        slider: /img/sathach-6.webp
       - id: 7
-        slider: /img/sathach-7.jpg
+        slider: /img/sathach-7.webp
   card-slug: /vi/product-detail/6/sat-hach-lai-xe/
   card-title: Sát Hạch Lái Xe
   language: vn

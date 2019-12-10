@@ -3,7 +3,7 @@ title: Max Market
 date: 2019-11-27T03:48:03.016Z
 card-portfolio:
   cardId: 1
-  card-img: /img/max-market.jpg
+  card-img: /img/max-market.webp
   card-lead: >-
    Max Market is the best website to advertise, buy and sell goods. User can post their notice, and search for products...
   card-page:
@@ -54,11 +54,11 @@ card-portfolio:
           name: Detail
     slider-img:
       - id: 1
-        slider: /img/max-market-1.jpg
+        slider: /img/max-market-1.webp
       - id: 2
-        slider: /img/max-market-2.jpg
+        slider: /img/max-market-2.webp
       - id: 3
-        slider: /img/max-market-3.jpg
+        slider: /img/max-market-3.webp
   card-slug: /product-detail/1/max-market/
   card-title: Max Market
   language: en

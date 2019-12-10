@@ -3,7 +3,7 @@ title: Sat Hach Lai Xe
 date: 2019-11-27T03:54:08.858Z
 card-portfolio:
   cardId: 6
-  card-img: /img/sathach.jpg
+  card-img: /img/sathach.webp
   card-lead: >-
     All 450 newest questions from Ministry of Transportation to help user pass driving examine. Useful tricks and experience to ...
   card-page:
@@ -36,19 +36,19 @@ card-portfolio:
           name: Technology
     slider-img:
       - id: 1
-        slider: /img/sathach-1.jpg
+        slider: /img/sathach-1.webp
       - id: 2
-        slider: /img/sathach-2.jpg
+        slider: /img/sathach-2.webp
       - id: 3
-        slider: /img/sathach-3.jpg
+        slider: /img/sathach-3.webp
       - id: 4
-        slider: /img/sathach-4.jpg
+        slider: /img/sathach-4.webp
       - id: 5
-        slider: /img/sathach-5.jpg
+        slider: /img/sathach-5.webp
       - id: 6
-        slider: /img/sathach-6.jpg
+        slider: /img/sathach-6.webp
       - id: 7
-        slider: /img/sathach-7.jpg
+        slider: /img/sathach-7.webp
   card-slug: /product-detail/6/sat-hach-lai-xe/
   card-title: Sat Hach Lai Xe
   language: en

@@ -33,7 +33,7 @@ const Footer = ({ footer, menu, language }) => {
                     <img
                       className="logo-footer"
                       alt=""
-                      src="/img/logo_footer.png"
+                      src="/img/logo_footer.webp"
                     ></img>
                   </div>
                 </Link>

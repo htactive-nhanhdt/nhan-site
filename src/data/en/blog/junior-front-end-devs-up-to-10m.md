@@ -3,7 +3,7 @@ blog-title-en: 05 Junior Front-end Devs - Up to 10M
 blog-date-en: 2019-11-27T13:48:55.476Z
 blog-description-en: 'Để đáp ứng nhu cầu phát triển, HT Active cần tuyển 05 Front-end Developer.'
 author-en: Thuận Hồ
-thumbnail-en: /img/tuyendung.png
+thumbnail-en: /img/tuyendung.webp
 tags-en: ["Recruit"]
 
 ---

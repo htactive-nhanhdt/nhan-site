@@ -6,7 +6,7 @@ blog-description-en: >-
   dòng chữ “Hello World!”, bài này sẽ hướng dẫn các bạn viết một hàm hoàn chỉnh
   trong assembly nhằm mục đích mô-đun hoá ứng dụng.
 author-en: Khiêm Trần
-thumbnail-en: /img/assem.png
+thumbnail-en: /img/assem.webp
 tags-en: ["Code"]
 
 ---

@@ -8,7 +8,7 @@ blog-description-vn: >-
 author-vn: Khiêm Trần
 tags-vn:
   - Code
-thumbnail-vn: /img/assem.png
+thumbnail-vn: /img/assem.webp
 iframe-vn: >-
   <iframe width="100%" height="225"
   src="https://www.youtube.com/embed/Dv7gLpW91DM" frameborder="0"

@@ -3,7 +3,7 @@ blog-title-en: '[ReactJS Tutorial] Bài 2 - JSX'
 blog-date-en: 2019-11-27T13:55:14.689Z
 blog-description-en: ReactJS là thư viện JavaScript được sử dụng để xây dựng các UI components có thể sử dụng lại.
 author-en: Hoàng Phạm
-thumbnail-en: /img/react.png
+thumbnail-en: /img/react.webp
 tags-en: ["React","Code"]
 ---
 React sử dụng JSX để tạo template thay vì JavaScript thông thường. Có thể bạn sẽ không sử dụng nó, tuy nhiên sau đây là một số lợi ích của JSX.
@@ -56,7 +56,7 @@ import React from react;
   export default App;
 ```
 
-![none](/img/react_jsx_wrapper.jpg "none")
+![none](/img/react_jsx_wrapper.webp "none")
 
 ## Attributes
 
@@ -96,7 +96,7 @@ import React from react;
   export default App;
 ```
 
-![2](/img/react_jsx_inline_javascript.jpg "2")
+![2](/img/react_jsx_inline_javascript.webp "2")
 
 Không thể sử dụng câu lệnh **if else** bên trong JSX, thay vào đó có thể sử dụng biểu thức có điều kiện (ternary) . Trong ví dụ sau, biến i bằng **if else**1 do đó trình duyệt sẽ render **true** , nếu chúng ta thay đổi nó thành một giá trị khác, nó sẽ render **false** .
 
@@ -114,7 +114,7 @@ import React from react;
   export default App;
 ```
 
-![true](/img/react_jsx_ternary_expression.jpg "true")
+![true](/img/react_jsx_ternary_expression.webp "true")
 
 ## Styling
 

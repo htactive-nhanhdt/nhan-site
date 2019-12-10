@@ -3,7 +3,7 @@ blog-title-vn: 2 Junior PHP Devs - Up to 10M
 blog-date-vn: 2019-11-27T10:43:46.696Z
 blog-description-vn: 'Để đáp ứng nhu cầu phát triển, HT Active cần tuyển 2 PHP Developer.'
 author-vn: Hoàng Phạm
-thumbnail-vn: /img/tuyendung.png
+thumbnail-vn: /img/tuyendung.webp
 tags-vn: ["Recruit"]
 ---
 ## Thông tin ứng tuyển

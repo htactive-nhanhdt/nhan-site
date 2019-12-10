@@ -3,7 +3,7 @@ language: en
 title: Web Programing
 date: 2019-11-25T14:57:56.497Z
 card-services:
-  card-img: /img/web-outsourcing.jpg
+  card-img: /img/web-outsourcing.webp
   card-lead: >-
     Outsourcing & web design on demand, not only business requirements but also
     technical requirements and system 

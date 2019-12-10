@@ -5,7 +5,7 @@ blog-description-vn: >-
   Scrum là một khung phát triển trong đó các nhóm liên-chức năng phát triển các
   sản phẩm hoặc dự
 author-vn: Hoàng Phạm
-thumbnail-vn: /img/scrum.png
+thumbnail-vn: /img/scrum.webp
 tags-vn: ["Code"]
 
 ---

@@ -8,7 +8,7 @@ blog-description-en: >-
 author-en: Khiêm Trần
 tags-en:
   - Code
-thumbnail-en: /img/assem.png
+thumbnail-en: /img/assem.webp
 iframe-en: >-
   <iframe width="100%" height="225"
   src="https://www.youtube.com/embed/Dv7gLpW91DM" frameborder="0"

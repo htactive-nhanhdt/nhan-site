@@ -2,7 +2,7 @@
 title: Fiber Racing
 date: 2019-11-27T04:11:34.253Z
 card-portfolio:
-  card-img: /img/fiber_racing.jpg
+  card-img: /img/fiber_racing.webp
   card-lead: Bạn sẽ tham gia vào một cuộc đua. Chạm màn hình để lượn và thả ra để đi...
   card-page:
     footer-portfolio:
@@ -76,15 +76,15 @@ card-portfolio:
           name: Cách chơi
     slider-img:
       - id: 1
-        slider: /img/fiber_racing_01.png
+        slider: /img/fiber_racing_01.webp
       - id: 2
-        slider: /img/fiber_racing_02.png
+        slider: /img/fiber_racing_02.webp
       - id: 3
-        slider: /img/fiber_racing_03.png
+        slider: /img/fiber_racing_03.webp
       - id: 4
-        slider: /img/fiber_racing_04.png
+        slider: /img/fiber_racing_04.webp
       - id: 5
-        slider: /img/fiber_racing_05.png
+        slider: /img/fiber_racing_05.webp
     video-url: 'https://www.youtube.com/embed/rjURiI58sAI'
   card-slug: /vi/product-detail/9/fiber-racing/
   card-title: Fiber Racing

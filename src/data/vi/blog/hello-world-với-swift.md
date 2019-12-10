@@ -5,7 +5,7 @@ blog-description-vn: >-
   Hôm nay mình sẽ hướng dẫn các bạn viết chương trình Hello World sử dụng Swift.
   Để bắt đầu, chúng ta sẽ viết 1 chương trình đơn giản như sau ...
 author-vn: Hiếu Lê
-thumbnail-vn: /img/hello-world-working-copy1.png
+thumbnail-vn: /img/hello-world-working-copy1.webp
 tags-vn: ["Code"]
 ---
 ## Bắt đầu

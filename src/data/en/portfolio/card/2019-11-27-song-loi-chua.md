@@ -3,7 +3,7 @@ title: Song Loi Chua
 date: 2019-11-27T03:51:39.517Z
 card-portfolio:
   cardId: 5
-  card-img: /img/slc.jpg
+  card-img: /img/slc.webp
   card-lead: >-
         SLC is a mobile application which was designed by Bayard Viet Nam base on a famous application, Prions en Eglise and... 
   card-page:   
@@ -30,11 +30,11 @@ card-portfolio:
           name: Technology
     slider-img:
       - id: 1
-        slider: /img/slc-1.jpg
+        slider: /img/slc-1.webp
       - id: 2
-        slider: /img/slc-2.jpg
+        slider: /img/slc-2.webp
       - id: 3
-        slider: /img/slc-3.jpg
+        slider: /img/slc-3.webp
   card-slug: /product-detail/5/song-loi-chua/
   card-title: Song Loi Chua
   language: en

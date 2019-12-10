@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import SubSlider from "../components/Portfolio/LeftSliderPortfolio"
 
-import avatar from "../../static/img/avatar.jpg"
+import avatar from "../../static/img/avatar.webp"
 
 const PortfolioChildPage = ({ data, language, color }) => {
   const [openTab, setOpenTab] = useState(1)

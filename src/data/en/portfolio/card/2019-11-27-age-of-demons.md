@@ -2,7 +2,7 @@
 title: Age of Demons
 date: 2019-11-27T04:12:57.983Z
 card-portfolio:
-  card-img: /img/demons.jpg
+  card-img: /img/demons.webp
   card-lead: >-
     Tap and hold to target the evil trooper, then release to shoot. Aim at the evil trooper's head to score more and get rewards!...
   card-page: 
@@ -46,11 +46,11 @@ card-portfolio:
           name: How to play
     slider-img:
       - id: 1
-        slider: /img/ageofdeamon_01.png
+        slider: /img/ageofdeamon_01.webp
       - id: 2
-        slider: /img/ageofdeamon_02.png
+        slider: /img/ageofdeamon_02.webp
       - id: 3
-        slider: /img/ageofdeamon_03.png
+        slider: /img/ageofdeamon_03.webp
   card-slug: /product-detail/10/Age-of-demon/
   card-title: Age of Demons
   cardId: 10

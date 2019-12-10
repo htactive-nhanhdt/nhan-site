@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import BannerAnim from "rc-banner-anim"
 import QueueAnim from "rc-queue-anim"
 
-import MacImg from "../../../../static/img/slider-2.png"
+import MacImg from "../../../../static/img/slider-2.webp"
 import SliderLeft from "./BannerSliderLeft"
 import ProgressBar from "./SliderProgressBar"
 

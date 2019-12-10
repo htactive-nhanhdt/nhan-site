@@ -2,7 +2,7 @@
 title: Age of Demons
 date: 2019-11-27T04:12:57.983Z
 card-portfolio:
-  card-img: /img/demons.jpg
+  card-img: /img/demons.webp
   card-lead: >-
     Chạm và giữ ngắm vào mục tiêu, thả ra để bắn. Bắn chính xác sẽ được cộng
     thêm điểm và phần thưởng...
@@ -73,11 +73,11 @@ card-portfolio:
           name: Cách chơi
     slider-img:
       - id: 1
-        slider: /img/ageofdeamon_01.png
+        slider: /img/ageofdeamon_01.webp
       - id: 2
-        slider: /img/ageofdeamon_02.png
+        slider: /img/ageofdeamon_02.webp
       - id: 3
-        slider: /img/ageofdeamon_03.png
+        slider: /img/ageofdeamon_03.webp
   card-slug: /vi/product-detail/10/Age-of-demon/
   card-title: Age of Demons
   cardId: 10

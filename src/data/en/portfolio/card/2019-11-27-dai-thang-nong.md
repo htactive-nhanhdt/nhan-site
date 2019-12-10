@@ -3,7 +3,7 @@ title: Dai Thang Nong
 date: 2019-11-27T03:51:24.099Z
 card-portfolio:
   cardId: 4
-  card-img: /img/dtn.jpg
+  card-img: /img/dtn.webp
   card-lead: >-
     Dai Thang Nong's website, to provide agricultural products...
   card-page:
@@ -34,11 +34,11 @@ card-portfolio:
           name: Technology
     slider-img:
       - id: 1
-        slider: /img/dtn-1.png
+        slider: /img/dtn-1.webp
       - id: 2
-        slider: /img/dtn-2.png
+        slider: /img/dtn-2.webp
       - id: 3
-        slider: /img/dtn-3.png
+        slider: /img/dtn-3.webp
   card-slug: /product-detail/4/dai-thang-nong/
   card-title: Dai Thang Nong
   language: en

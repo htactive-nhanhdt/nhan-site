@@ -3,7 +3,7 @@ title: Site HT Active
 date: 2019-11-27T03:50:39.820Z
 card-portfolio:
   cardId: 3
-  card-img: /img/htactive.jpg
+  card-img: /img/htactive.webp
   card-lead: >-
     HT Active is our website to advertise business of company. Show own products was made by HT Active and introduce all ...
   card-page:
@@ -34,11 +34,11 @@ card-portfolio:
           name: Technology
     slider-img:
       - id: 1
-        slider: /img/htactive-1.png
+        slider: /img/htactive-1.webp
       - id: 2
-        slider: /img/htactive-2.png
+        slider: /img/htactive-2.webp
       - id: 3
-        slider: /img/htactive-3.png
+        slider: /img/htactive-3.webp
   card-slug: /product-detail/3/htactive/
   card-title: Site HT Active
   language: en

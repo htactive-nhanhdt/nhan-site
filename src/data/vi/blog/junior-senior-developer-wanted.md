@@ -5,7 +5,7 @@ blog-description-vn: >-
   Để đáp ứng nhu cầu phát triển, HT Active cần tuyển nhiều vị trí lập trình viên
   Junior - Senior.
 author-vn: Hoàng Phạm
-thumbnail-vn: /img/tuyendung.png
+thumbnail-vn: /img/tuyendung.webp
 tags-vn: ["Recruit"]
 ---
 ## Thông tin ứng tuyển

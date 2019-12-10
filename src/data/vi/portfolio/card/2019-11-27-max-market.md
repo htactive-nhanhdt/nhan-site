@@ -3,7 +3,7 @@ title: Max Market
 date: 2019-11-27T03:48:03.016Z
 card-portfolio:
   cardId: 1
-  card-img: /img/max-market.jpg
+  card-img: /img/max-market.webp
   card-lead: >-
     Max market là hệ thống trao đổi mua bán và rao vặt. Sau khi admin cấu hình
     cho hệ thống, người dùng có thể vào đăng tin... 
@@ -76,11 +76,11 @@ card-portfolio:
           name: Điểm mạnh
     slider-img:
       - id: 1
-        slider: /img/max-market-1.jpg
+        slider: /img/max-market-1.webp
       - id: 2
-        slider: /img/max-market-2.jpg
+        slider: /img/max-market-2.webp
       - id: 3
-        slider: /img/max-market-3.jpg
+        slider: /img/max-market-3.webp
   card-slug: /vi/product-detail/1/max-market/
   card-title: Max Market
   language: vn

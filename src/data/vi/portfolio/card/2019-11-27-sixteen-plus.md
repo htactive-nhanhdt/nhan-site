@@ -2,7 +2,7 @@
 title: Sixteen Plus
 date: 2019-11-27T03:52:40.507Z
 card-portfolio:
-  card-img: /img/sixteen.jpg
+  card-img: /img/sixteen.webp
   card-lead: >-
     Ứng dụng giúp matching giữa 2 người có cùng sở thích và mối quan tâm, chỉ
     đường để giúp họ có thể tìm được nhau...
@@ -29,7 +29,7 @@ card-portfolio:
           name: Công nghệ
     slider-img:
       - id: 1
-        slider: /img/sixteen-1.jpg
+        slider: /img/sixteen-1.webp
     video-url: 'https://www.youtube.com/embed/MQzsfDEbgLg?ecver=2'
   card-slug: /vi/product-detail/7/sixteen-plus-dating/
   card-title: Sixteen Plus
