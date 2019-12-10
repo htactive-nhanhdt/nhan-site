@@ -22,7 +22,7 @@ const Banner = ({ propBanner}) => {
             <div className="space-top"></div>
             <h1 className="first-title">{propBanner.banner_title}</h1>
             <div className="separator-2"></div>
-            <p className="lead">
+            <p>
               {propBanner.banner_lead.split(".")[0]}.
               <br />
               {propBanner.banner_lead.split(".")[1]}.

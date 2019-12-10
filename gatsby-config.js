@@ -10,24 +10,15 @@ module.exports = {
     `gatsby-plugin-htaccess`,
     `gatsby-plugin-netlify-cms`,
     {
-      resolve: `gatsby-plugin-webfonts`,
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
-        fonts: {
-          google: [
-            {
-              family: "Open Sans",
-              variants: ["300", "400", "500"],
-              //subsets: ['latin']
-              //text: 'Hello'
-              //fontDisplay: 'swap',
-              //strategy: 'selfHosted' // 'base64' || 'cdn'
-            },
-          ],
-        },
-        //formats: ['woff2', 'woff'],
-        useMinify: true,
-        usePreload: true,
-        //usePreconnect: false,
+        fonts: [
+         
+          {
+            family: `Open Sans`,
+            variants: [`300`,`400`, `700`]
+          },
+        ],
       },
     },
     {
@@ -83,18 +74,7 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
-      options: {
-        fonts: [        
-          {
-            family: `Open Sans`,
-            variants: [`400`, `700`]
-          },
-        ],
-      },
-    },
+    `gatsby-plugin-sharp`,    
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

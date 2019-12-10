@@ -95,11 +95,7 @@ const SEO = ({
           },
         ].concat(meta)}
       >
-        {/* <link
-          href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,300&amp;subset=latin,latin-ext"
-          rel="stylesheet"
-          type="text/css"
-        />  */}
+        
         <link
           href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
           rel="stylesheet"
