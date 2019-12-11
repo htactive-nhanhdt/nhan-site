@@ -1419,7 +1419,7 @@ pre code {
     position: absolute !important;
     right: 20px;
     width: 35%;
-    top: 15%;
+    top: 20%!important;
     height: auto;
   }
  
@@ -1544,13 +1544,12 @@ pre code {
     height: auto;
   }
  
- 
 
   .macImg {
-    width: 35%;
+    width: 30%;
     height: auto;
     position: absolute!important;
-    right: 10px;
+    right: 20px;
     top: 10px;
   }
   .banner-left-heading ul {
@@ -2209,7 +2208,7 @@ pre code {
         width: 350px;
         height: auto;
         position: absolute !important;
-        right: 17% !important;
+        right: 10% !important;
         top: 40px !important;
       }
     
@@ -2594,7 +2593,7 @@ blockquote {
     margin-left: 20px;
   }
   .owl-item {
-      width:95px!important;
+      width:85px!important;
   }
   .float-img1 {
     transform: translate3d(-125px, 0px, 0px);
