@@ -2521,6 +2521,12 @@ pre code {
     transform: scale(1)
   }
 }
+@media only screen and (max-width: 480px) {
+  .owl-item {
+    width: 90px!important;
+    /* box-sizing: border-box; */
+  }
+}
 
 @media only screen and (max-width: 780px) {
   .lp-modal-image>.modal>.modal-content {
@@ -2593,7 +2599,7 @@ blockquote {
     margin-left: 20px;
   }
   .owl-item {
-      width:85px!important;
+      width:115px;
   }
   .float-img1 {
     transform: translate3d(-125px, 0px, 0px);
