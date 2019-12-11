@@ -9,7 +9,6 @@ import Footer from "./footer"
 import FooterTop from "./FooterTop/FooterTop"
 import StyleSwitcher from "../components/StyleSwitcher/StyleSwitcher"
 
-
 import "./layoutCss/assets/css/bootstrap.css"
 import "./layoutCss/assets/css/icons.css"
 import "./layoutCss/assets/css/main.css"
@@ -18,7 +17,7 @@ import "./layoutCss/assets/voc/css/animations.css"
 import "./layoutCss/assets/voc/css/style.css"
 import "./layout.css"
 
-const Layout = ({  children, color, open, language }) => {
+const Layout = ({ children, color, open, language }) => {
   const data = useStaticQuery(
     graphql`
       query {
@@ -41,12 +40,10 @@ const Layout = ({  children, color, open, language }) => {
       <StyleSwitcher></StyleSwitcher>
       <Header menu={menu} color={color} language={language} />
       <main>{children}</main>
-      <FooterTop  language={language}/>
+      <FooterTop language={language} />
       <Footer menu={menu} />
-      <ScrollUpButton AnimationDuration={1500} ShowAtPosition={0} />
-      <div>
-        <i className="fa fa-angle-up"></i>
-      </div>
+      <ScrollUpButton AnimationDuration={1500} ShowAtPosition={300}>
+      </ScrollUpButton>
     </div>
   )
 }
@@ -58,7 +55,4 @@ Layout.propTypes = {
 const mapStateToProps = ({ color, open, language }) => {
   return { color, open, language }
 }
-export default connect(
-  mapStateToProps,
-  null
-)(Layout)
+export default connect(mapStateToProps, null)(Layout)

@@ -53,9 +53,7 @@
   left: 0!important;
 }
 
-.ScrollUpButton__Container {
-  background-color: transparent !important;
-  color: transparent !important;
+.ScrollUpButton__Container { 
   height: 30px;
   position: fixed;
   right: 0;
@@ -65,14 +63,22 @@
   cursor: pointer;
   opacity: 1;
   right: 10px !important;
-  z-index: 10000000000000 !important;
-  fill: white;
-  padding-bottom: 1px;
-  padding-left: 1px;
-  padding-right: 1px;
+  z-index: 10000000000000 !important; 
+  fill: #fff!important;
+  padding-bottom: 3px;
+  padding-left: 3px;
+  padding-right: 3px;
+
 }
 .ScrollUpButton__Container > svg {
-  transform: scale(0);
+  color: white!important;
+         
+}
+.ScrollUpButton__Container i{
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  z-index: 10000000000000 !important;
 }
 .logo {
   background-image: url("../../static/img/logo_red.webp");
@@ -971,9 +977,9 @@ div.style-switcher .dark-red:hover {
 }
 
 .slide-in-left {
-  -webkit-animation: slide-in-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+  -webkit-animation: slide-in-left 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94)
     backwards;
-  animation: slide-in-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) backwards;
+  animation: slide-in-left 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) backwards;
 }
 @-webkit-keyframes slide-in-left {
   0% {
@@ -1000,9 +1006,9 @@ div.style-switcher .dark-red:hover {
   }
 }
 .slide-out-left {
-  -webkit-animation: slide-out-left 1s cubic-bezier(0.55, 0.085, 0.68, 0.53)
+  -webkit-animation: slide-out-left 0.1s cubic-bezier(0.55, 0.085, 0.68, 0.53)
     both;
-  animation: slide-out-left 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  animation: slide-out-left 0.1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
 }
 @-webkit-keyframes slide-out-left {
   0% {
@@ -1405,8 +1411,7 @@ pre code {
     min-height: 180px;
     height: auto;
   }
-  .navbar-toggle {
-    position: absolute;
+  .navbar-toggle { 
     top: 0;
     right: 2px;
   }
@@ -1517,7 +1522,10 @@ pre code {
     visibility: visible;
     width: 100% !important;
     max-width: 100% !important;
+    transition: all 0.7s ease 0s;
+    cursor: pointer;
   }
+
   .navbar {
     display: flex;
     flex-direction: column !important;
