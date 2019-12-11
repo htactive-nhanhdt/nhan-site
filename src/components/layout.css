@@ -1167,6 +1167,18 @@ div.style-switcher .dark-red:hover {
     width: 970px;
   }
 }
+@media (min-width: 1022px) {
+  .footerTop-left{
+    width: 55%!important;
+  }
+  .footerTop-right{
+    width: 45%!important;
+  }
+  .col-sm-12{
+    flex: none!important;
+  }
+}
+
 
 @media (min-width: 1200px) {
   .boxed .page-wrapper {
@@ -1872,6 +1884,7 @@ pre code {
   .logo-fixed{
       display:none!important;
     }
+ 
   
 }
 @media (max-width: 991px) {

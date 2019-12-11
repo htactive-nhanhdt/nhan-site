@@ -62,7 +62,7 @@ const FooterTop = ({language}) => {
     <div className="section text-muted footer-top clearfix">
       <div className="container">
         <div className="row ">
-          <div className="col-xl-6 col-sm-12">
+          <div className="col-xl-6 col-sm-12 footerTop-left">
             <div
               className="owl-carousel clients owl-theme"
               style={{ opacity: 1, display: "block" }}
@@ -84,7 +84,7 @@ const FooterTop = ({language}) => {
               </div>
             </div>
           </div>
-          <div className="col-xl-6 col-sm-12">
+          <div className="col-xl-6 col-sm-12 footerTop-right">
             <blockquote className="inline">
               <p className="margin-clear">
                 Design is not just what it looks like and feels like. Design is
