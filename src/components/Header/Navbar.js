@@ -51,8 +51,8 @@ const NavBar = ({ color, active, menu,language, changeSlug, changeActive,isFoote
   )
 }
 
-const mapStateToProps = ({ active,language }) => {
-  return { active,language }
+const mapStateToProps = ({ active,language, color }) => {
+  return { active,language, color }
 }
 const mapDispatchToProps = dispatch => {
   return {

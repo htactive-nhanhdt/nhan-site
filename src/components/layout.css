@@ -1274,7 +1274,7 @@ div.style-switcher .dark-red:hover {
 }
 .copyright {
   text-align: left;
-  color: #666666;
+  color: #A6A6A6;
 }
 .page-title {
   font-weight: 700;
@@ -2772,10 +2772,13 @@ body {
   background: #333333 !important;
   color: white !important;
 }
-
 .ant-collapse > .ant-collapse-item {
   color: #ffffff !important;
-  background-color: #999999;
+  background-color: #757575;
+}
+.ant-collapse > .ant-collapse-item:hover {
+  background: #333333 !important;
+  color: white !important;
 }
 .ant-collapse > .ant-collapse-item > .ant-collapse-header {
   margin-top: 0;

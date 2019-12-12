@@ -236,7 +236,10 @@ pre {
   border-radius: 0px;
 }
 .text-muted {
-  color: #999999;
+  color: #595959!important;
+}
+blockquote footer{
+  color: #595959!important;
 }
 .text-default {
   color: #e84c3d;
@@ -1915,7 +1918,7 @@ tbody {
 
 /* The color of default buttons is the color of current color scheme */
 .btn-default {
-  background-color: #e84c3d;
+  background-color: #E32C1C;
   color: #fff !important;
   border-color: #cd3c2e;
 }
@@ -2020,7 +2023,7 @@ fieldset[disabled] .btn-default {
   position: relative;
   display: inline-block;
   text-align: right;
-  color:#e84c3d;
+  color:#EB6156;
 }
  .blogpost-content a {
   color:#e84c3d;
@@ -2517,7 +2520,7 @@ ul.pagination li > a:focus {
   -webkit-box-shadow: none;
   box-shadow: none;
   border-bottom-color: transparent;
-  background-color: #999999;
+  background-color: #757575;
 }
 .vertical .nav-tabs > li {
   float: none;
@@ -3201,7 +3204,11 @@ a.overlay.small i {
 /* first level active menu items on hover/focus */
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #e84c3d;
+  color: #DD2C1D;
+  background-color: transparent;
+}
+.subfooter .active a {
+  color: #e84c3d!important;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a:hover {
@@ -3834,6 +3841,7 @@ a.overlay.small i {
   line-height: 1;
   font-size: 14px;
   font-weight: 400;
+  color: #A6A6A6;
 }
 .subfooter .navbar-default .nav li:last-child a,
 .light .subfooter .navbar-default .nav > li:last-child > a {
