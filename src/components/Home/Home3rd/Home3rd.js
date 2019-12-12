@@ -30,7 +30,7 @@ const Home3rd = ({ data, language, color }) => {
         }}
         className={toggleStatus === position ? `${color} active` : `${color}`}
       >
-        <span role="tab" data-toggle="tab">
+        <span>
           {item[`tab_title_${language}_${position}`]}
         </span>
       </li>
