@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 
 import TextCenter from "../TextCenter/TextCenter"
-const Home3rd = ({ data, language }) => {
+const Home3rd = ({ data, language, color }) => {
   const [toggleStatus, setToggleStatus] = useState(1)
   const toggleTab = status => {
     toggleStatus !== status ? setToggleStatus(status) : setToggleStatus(1)
@@ -19,6 +19,23 @@ const Home3rd = ({ data, language }) => {
     toggleStatus !== 0
       ? dataTab[toggleStatus - 1]
       : dataTab[0] || { [`tab_title_${language}`]: "Hello" }
+  const navTabs = dataTab.map((item, index) => {
+    const position = index + 1
+    return (
+      <li
+        key={index}
+        onClick={() => {
+          toggleTab(position)
+          resetAnimation()
+        }}
+        className={toggleStatus === position ? `${color} active` : `${color}`}
+      >
+        <span role="tab" data-toggle="tab">
+          {item[`tab_title_${language}_${position}`]}
+        </span>
+      </li>
+    )
+  })
 
   return (
     <div className="container">
@@ -27,22 +44,9 @@ const Home3rd = ({ data, language }) => {
         <div className="arrow hidden-sm hidden-xs">
           <i className="fa fa-caret-up" />
         </div>
-        <ol className="nav nav-tabs" role="tablist">
-          {dataTab.map((item, index) => (
-            <li
-              key={index}
-              onClick={() => {
-                toggleTab(index + 1)
-                resetAnimation()
-              }}
-              className={toggleStatus === index + 1 ? "active " : ""}
-            >
-              <a role="tab" data-toggle="tab">
-                {item[`tab_title_${language}_${index + 1}`]}
-              </a>
-            </li>
-          ))}
-        </ol>
+        <ul className="nav nav-tabs" role="tablist">
+          {navTabs}
+        </ul>
         <div className="tab-content tab-custom">
           <div
             className="tab-pane fade in active fade-in--quick "

@@ -28,7 +28,7 @@ const Footer = ({ footer, menu, language }) => {
               style={{ marginLeft: "0!important" }}
             >
               <div className="footer-content">
-                <Link to="/">
+                <Link to="/" aria-label="logo">
                   <div>
                     <img
                       className="logo-footer"
@@ -46,27 +46,27 @@ const Footer = ({ footer, menu, language }) => {
                     </p>
                     <ul className="social-links circle">
                       <li className="facebook">
-                        <a href="https://www.facebook.com/htactive">
+                        <a href="https://www.facebook.com/htactive" aria-label="facebook">
                           <i className="fa fa-facebook"></i>
                         </a>
                       </li>
                       <li className="twitter">
-                        <a href="https://twitter.com/hoangvhh">
+                        <a href="https://twitter.com/hoangvhh" aria-label="twitter">
                           <i className="fa fa-twitter"></i>
                         </a>
                       </li>
                       <li className="googleplus">
-                        <a href="https://plus.google.com/u/0/117715430853979848085">
+                        <a href="https://plus.google.com/u/0/117715430853979848085" aria-label="google-plus">
                           <i className="fa fa-google-plus"></i>
                         </a>
                       </li>
                       <li className="skype">
-                        <a href="skype:hoangvhh">
+                        <a href="skype:hoangvhh" aria-label="skype">
                           <i className="fa fa-skype"></i>
                         </a>
                       </li>
                       <li className="linkedin">
-                        <a href="https://www.linkedin.com/in/hoang-pham-6236b8b7">
+                        <a href="https://www.linkedin.com/in/hoang-pham-6236b8b7" aria-label="linkedin">
                           <i className="fa fa-linkedin"></i>
                         </a>
                       </li>

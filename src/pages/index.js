@@ -27,7 +27,7 @@ const IndexPage = ({ data, color, footer, language,changeActive, changeSlug }) =
       <Home1st data={data[`home1st_${language}`]} color={color} language={language} />
       <Home2nd data={data[`home2nd_${language}`]} color={color} language={language} />
       <BannerHome data={data[`banner_${language}`]} language={language} />
-      <Home3rd data={data[`home3rd_${language}`]}  language={language}/>
+      <Home3rd data={data[`home3rd_${language}`]}  language={language} color={color}/>
     </Layout>
   )
 }

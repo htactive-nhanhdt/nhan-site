@@ -11,7 +11,7 @@ const HeaderFixed = ({ color, menu, fixed }) => {
         <div className="row header-fixed">
           <div className={`col-md-3 ${fixed ? "header-left-fixed" : ""}`}>
             <div className="header-left clearfix">
-              <Link to="/">
+              <Link to="/" aria-label="logo">
                 <div className={`logo ${fixed ? "logo-fixed" : ""}`}></div>
               </Link>
               <div
