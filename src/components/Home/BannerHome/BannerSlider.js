@@ -44,6 +44,7 @@ const Banner = ({ data, language }) => {
   ]
   return (
     <div className="banner">
+    <div className="shield"></div>
       <BannerAnim
         autoPlay
         autoPlaySpeed={10000}

@@ -31,7 +31,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
   line-height: 1.5;
-  color: #666666;
+  color: #595959;
   background-color: #ffffff;
 }
 body.full-height,
@@ -3176,7 +3176,7 @@ a.overlay.small i {
 
 /* first level menu items */
 .navbar-default .navbar-nav > li > a {
-  color: #666666;
+  color: #595959;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 700;
@@ -3880,7 +3880,7 @@ a.overlay.small i {
 .site-slogan {
   font-size: 15px;
   font-style: italic;
-  color: #999999;
+  color: #595959;
 }
 .transparent.header:not(.dark) .site-slogan {
   color: #333333;
@@ -4536,7 +4536,7 @@ footer:not(.light) .footer-content .tag a,
   padding: 9px 10px;
   margin: 0;
   font-size: 12px;
-  color: #999;
+  color: #4f4f4f;
   text-align: center;
   min-width: 0;
   background-color: transparent;
