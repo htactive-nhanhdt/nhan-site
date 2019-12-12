@@ -2943,7 +2943,7 @@ h1 {
 
 /*Banner Slider shield*/
 
-.shield {
+.banner .shield {
   position: absolute;
   top: 0;
   bottom: 0;
