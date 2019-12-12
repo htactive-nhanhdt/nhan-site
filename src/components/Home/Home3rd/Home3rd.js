@@ -44,7 +44,7 @@ const Home3rd = ({ data, language, color }) => {
         <div className="arrow hidden-sm hidden-xs">
           <i className="fa fa-caret-up" />
         </div>
-        <ul className="nav nav-tabs" role="tablist">
+        <ul className="nav nav-tabs">
           {navTabs}
         </ul>
         <div className="tab-content tab-custom">

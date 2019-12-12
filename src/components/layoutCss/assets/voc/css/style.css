@@ -2566,9 +2566,9 @@ ul.pagination li > a:focus {
 
 .vertical .nav-tabs > li.active > span {
   background-color: #fafafa;
-  color: #e84c3d;
+  color: #DD2C1D;
   -webkit-box-shadow: -1px 0px 1px rgba(0, 0, 0, 0.04);
-  box-shadow: -1px 0px 1px rgba(0, 0, 0, 0.04); 
+  box-shadow: -1px 0px 1px rgba(0, 0, 0, 0.04);
   border-bottom-color: #f0f0f0;
   z-index: 2;
   width: 101%;
